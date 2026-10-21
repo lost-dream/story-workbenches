@@ -2,7 +2,7 @@
 name: story-long-workbench
 description: 长篇小说工作台，整合扫榜选题、深度拆文、开书规划、章节与连载写作、旧稿导入、去AI味、审稿及封面。用于长篇开书、卷纲细纲、日更续写、拆书和导入长篇；只做用户指定阶段，短篇构思成稿使用 story-short-workbench。
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   source: "https://github.com/zenstory-ai/oh-story-claudecode"
 ---
 # 长篇小说工作台

@@ -2,7 +2,7 @@
 name: story-short-workbench
 description: 短篇小说工作台，整合目标情绪、故事构思、小节大纲、成稿精修、旧稿导入、去AI味、审稿及封面，内置供导入与参考使用的短篇分析适配。用于盐言故事和短篇写作改稿；长篇榜单、深度拆书与连载追踪使用 story-long-workbench。
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   source: "https://github.com/zenstory-ai/oh-story-claudecode"
 ---
 # 短篇小说工作台

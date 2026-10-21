@@ -2,7 +2,9 @@
 
 将八个小说技能按用途整合为两个可独立安装的 Codex skill。每个技能包含自己的专项方法、参考文件与脚本，不依赖原八个技能目录，不需要先安装专用写作助手。
 
-[下载版本包](https://github.com/lost-dream/story-workbenches/releases) · [长篇技能入口](skills/story-long-workbench/SKILL.md) · [短篇技能入口](skills/story-short-workbench/SKILL.md) · [版本记录](CHANGELOG.md) · [来源说明](NOTICE.md)
+[下载版本包](https://github.com/lost-dream/story-workbenches/releases) · [使用手册](docs/USER_GUIDE.md) · [宣传文案](docs/PROMOTION.md) · [版本记录](CHANGELOG.md) · [来源说明](NOTICE.md)
+
+技能入口：[长篇工作台](skills/story-long-workbench/SKILL.md) · [短篇工作台](skills/story-short-workbench/SKILL.md)
 
 目前按 Codex 场景整理与验证；其他 Agent 的兼容性需要在对应环境验证。这里的“工作台”指统一的技能流程入口，使用对话和项目文件工作，不包含独立图形界面。
 
@@ -33,7 +35,7 @@
 将下面这句话发送给支持从 GitHub 安装技能的 Codex：
 
 ```text
-请安装 https://github.com/lost-dream/story-workbenches 中的两个 skill：
+使用 $skill-installer，安装 https://github.com/lost-dream/story-workbenches 中的两个 skill：
 skills/story-long-workbench
 skills/story-short-workbench
 ```
@@ -44,7 +46,9 @@ skills/story-short-workbench
 
 从 [Releases](https://github.com/lost-dream/story-workbenches/releases) 下载完整版或单个技能包，也可用仓库页面的 Code → Download ZIP 下载源码。
 
-将 `skills/story-long-workbench`、`skills/story-short-workbench` 分别完整复制到 Codex 的 skills 目录：`$CODEX_HOME/skills`，未设置时为用户目录下的 `.codex/skills`。单技能压缩包直接包含同名技能目录。保留目录结构，不只复制 `SKILL.md`。不要覆盖已有同名自定义技能；先比较差异。
+优先让安装器确定实际目标目录。手动安装时，当前官方文档列出的用户级目录为 `~/.agents/skills/`，项目级目录为项目内的 `.agents/skills/`；已由安装器放在其他受支持目录并正常识别的，无需重复安装。[官方技能说明](https://learn.chatgpt.com/docs/build-skills)
+
+将 `skills/story-long-workbench`、`skills/story-short-workbench` 两个完整目录放入对应位置。单技能压缩包直接包含同名技能目录。保留目录结构，不只复制 `SKILL.md`。不要覆盖已有同名自定义技能；先比较差异。
 
 安装后目录应为：
 
@@ -53,18 +57,20 @@ skills/
 ├── story-long-workbench/
 │   ├── SKILL.md
 │   ├── LICENSE
+│   ├── NOTICE.md
 │   ├── agents/
 │   ├── modules/
 │   └── references/
 └── story-short-workbench/
     ├── SKILL.md
     ├── LICENSE
+    ├── NOTICE.md
     ├── agents/
     ├── modules/
     └── references/
 ```
 
-已装原技能可以保留，不影响新包资源完整性；两个新技能从下一轮对话起可用。调用新名字可明确使用整合版。
+已装原技能可以保留，不影响新包资源完整性。安装后可尝试新对话或明确指定新名字；未出现时检查目录并重启宿主。完整场景与常见问题见 [使用手册](docs/USER_GUIDE.md)。
 
 ### 验证入口
 
@@ -122,6 +128,6 @@ skills/
 
 原八个技能的 metadata 标记来源为 [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode)，源技能 metadata 中的版本值为 `1.0.0`；这不是对上游整个项目版本号的声明。两个包的 `references/sources.json` 保留来源技能名、原文件名、原文件 SHA-256 及整合后文件位置，便于追溯。
 
-本项目新增内容包括两个统一入口、模块内路径适配、独立运行约定、短篇导入分析及设计交接、封面方式选择。原项目采用 MIT 许可，原版权声明与许可全文保留在根目录及两个技能目录的 [LICENSE](LICENSE) 中。详细来源与变更范围见 [NOTICE.md](NOTICE.md)。
+本项目新增内容包括两个统一入口、模块内路径适配、独立运行约定、短篇导入分析及设计交接、封面方式选择和使用文档。项目采用 MIT 许可，原作者版权行及许可全文保留在根目录与两个技能目录的 [LICENSE](LICENSE) 中，并增加整合及新增文档的版权行。根目录与两个独立技能包均有来源说明，详见 [NOTICE.md](NOTICE.md)。
 
 下载包和源码以发布标签对应的版本为准。更新前保留自己对技能的修改，再替换相应技能目录。
