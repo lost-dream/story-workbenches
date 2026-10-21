@@ -1,0 +1,6 @@
+interface:
+  display_name: "短篇小说工作台"
+  short_description: "短篇构思、小节大纲、完整成稿、旧稿导入与去味审稿封面的统一入口"
+  default_prompt: "使用 $story-short-workbench，根据当前小说项目和我的要求，完成指定的创作阶段。"
+policy:
+  allow_implicit_invocation: true

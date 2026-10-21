@@ -1,0 +1,663 @@
+{
+  "integration_version": "1.0.0",
+  "integration_date": "2026-10-20",
+  "upstream": "https://github.com/zenstory-ai/oh-story-claudecode",
+  "notice": "Based on the eight user-installed skills; preserves source attribution. No upstream license is invented by this bundle.",
+  "adaptations": [
+    "two purpose-based entrypoints",
+    "self-contained module resources",
+    "local direct execution defaults",
+    "current image-method selection",
+    "short analysis import adapter"
+  ],
+  "files": [
+    {
+      "source_skill": "story-short-write",
+      "source_file": "SKILL.md",
+      "source_sha256": "1c114d9490806cbc7c985f9ef013f12dfaa10e2718dd65b57f13f7cb28e429ef",
+      "bundled_file": "modules/write/guide.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/agent-calls.md",
+      "source_sha256": "10486caa8d4d1cd28031364fa22b84d5e354c73db738db01467c11801d304567",
+      "bundled_file": "modules/write/references/agent-calls.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/author-memory-maintenance.md",
+      "source_sha256": "9ea57cc93f70ec7f1df6df03e4c3605e0937d4a95c89c01d230b391082eaacda",
+      "bundled_file": "modules/write/references/author-memory-maintenance.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/author-memory.md",
+      "source_sha256": "832171fac5265e613ea55eac028c1ba90da2e907eb60bb8cc6c7c70a7e2a7ba1",
+      "bundled_file": "modules/write/references/author-memory.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/banned-words.md",
+      "source_sha256": "0950870db637861b895972069f374b0d9e89120a17fa9d668362879b7da0f6a3",
+      "bundled_file": "modules/write/references/banned-words.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/benchmark-recall.md",
+      "source_sha256": "940e375425d4615a843ea3873d70b8de60ebae5a161cf971e7cfc283c60e8673",
+      "bundled_file": "modules/write/references/benchmark-recall.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/cross-book-recall.md",
+      "source_sha256": "3e3846a022a976712dc49179a35868f548e2a1ce6e91c55a16c0b8e2735b4d62",
+      "bundled_file": "modules/write/references/cross-book-recall.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/dialogue-mastery.md",
+      "source_sha256": "55179705ce1539c2674c0d9c478a448cfbeabe85281744266d40249a31bcac84",
+      "bundled_file": "modules/write/references/dialogue-mastery.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/emotional-methods.md",
+      "source_sha256": "990b6b22370a15a179fb0ff8351f7b66e9d70e9ca4de2f1d9dbb648f65c340fc",
+      "bundled_file": "modules/write/references/emotional-methods.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-writing-formulas.md",
+      "source_sha256": "b0cc1bf4ec3350bd96f09e3b206a1be142e21275c14ea1119811e37380c6ae0b",
+      "bundled_file": "modules/write/references/genre-writing-formulas.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-writing-techniques.md",
+      "source_sha256": "9314d0567f1673afa9e8c82c3c364fad0e974fabc9667417ae95b7596f80b468",
+      "bundled_file": "modules/write/references/genre-writing-techniques.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/hooks-chapter.md",
+      "source_sha256": "8f931ef9ff06f1958da40d683c9d3788ffda8d1136964a2305c5ce23316c3679",
+      "bundled_file": "modules/write/references/hooks-chapter.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/hooks-paragraph.md",
+      "source_sha256": "947932cc322c580ffb695d094170f094d215858f8b745d7cb5c5d6cd9f52d222",
+      "bundled_file": "modules/write/references/hooks-paragraph.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/output-contract.md",
+      "source_sha256": "75504a98b77e824de183f301cf70b1ce8d75cf081e6912b4c62aa8b209fff177",
+      "bundled_file": "modules/write/references/output-contract.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/reference-index.md",
+      "source_sha256": "fa1175a4432d9abc6009105167c5a9191798007073966b0fad90b9a512d0c1a6",
+      "bundled_file": "modules/write/references/reference-index.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/scene-craft.md",
+      "source_sha256": "8838e332778e8f47ea9ecf01ef4bac346842e3e72e6826df72b08e6c0506edd0",
+      "bundled_file": "modules/write/references/scene-craft.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/short-craft.md",
+      "source_sha256": "cbdc46d3f58777315a55b8fbc42314e3c636e702868e9232d8246a5f63eb67f9",
+      "bundled_file": "modules/write/references/short-craft.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/short-deslop.md",
+      "source_sha256": "cb9c0c1d2ba2266edc71968db553e44ffdd21fdd19263ebf41884000f4dda668",
+      "bundled_file": "modules/write/references/short-deslop.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/short-format.md",
+      "source_sha256": "32cc69a4dc9cca02f10a39057c246649e539b6bcf1e1d8167b64239650adc74b",
+      "bundled_file": "modules/write/references/short-format.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/short-prose-quality.md",
+      "source_sha256": "9bbdc7c3a19cbbd2a2d8fd3ae79ef648ea43e1a3e58196592094c2836ae84513",
+      "bundled_file": "modules/write/references/short-prose-quality.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/short-reversal.md",
+      "source_sha256": "364f3f083fac28b70ac10c0bd05bd5fc443f474f12666c9fc2b33717b806b1e6",
+      "bundled_file": "modules/write/references/short-reversal.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/short-suspense.md",
+      "source_sha256": "40b07607cc4b4ff96fc7bcdf1b65dfa1d7f208bd2b78ae68eda0adca34ca5a1b",
+      "bundled_file": "modules/write/references/short-suspense.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/style-resolution.md",
+      "source_sha256": "68f71f04d7c0af5a6344a85753d487642f368ef03fac93a79096141bba8e168b",
+      "bundled_file": "modules/write/references/style-resolution.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/submission-craft.md",
+      "source_sha256": "ceb48f3cfb031b677aa02cafcd7be1c23f0368cfbf2042585ce36a9f26d62e29",
+      "bundled_file": "modules/write/references/submission-craft.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/villain-and-reveal.md",
+      "source_sha256": "31d45af22fd497171ecfb0d245c5ebf495a175cc154f24f76f986fcc39faa455",
+      "bundled_file": "modules/write/references/villain-and-reveal.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/workflow-design.md",
+      "source_sha256": "b465ecec2079ea22024cd6ffebf5d0403fe2f6e2c49a418284670ae775e8895f",
+      "bundled_file": "modules/write/references/workflow-design.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/workflow-draft.md",
+      "source_sha256": "2440cb438dbc8cc25dd212b6113d1c8ea5b3e7cc9a73e45cfb8257a6a6ef769b",
+      "bundled_file": "modules/write/references/workflow-draft.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/workflow-revision.md",
+      "source_sha256": "b33fbf77a58aa056aebd1aa9e2d7fe17d4202c4ccf910dd78ec8824c838e47dd",
+      "bundled_file": "modules/write/references/workflow-revision.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/writing-workflow.md",
+      "source_sha256": "726f47233d86cb841b52f84c246690438f737c0f3d040ec2b2268c5db29c9796",
+      "bundled_file": "modules/write/references/writing-workflow.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/author_memory_commit.py",
+      "source_sha256": "cc1e0d957f3eea9e04d679423ecb511b5eb7d8dc5bfcaa87196cfe258e2103d5",
+      "bundled_file": "modules/write/scripts/author_memory_commit.py"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/check-ai-patterns.js",
+      "source_sha256": "56bfcda4e79072e80744b30df035ad10210972e9d879888bd0403c1c931c3351",
+      "bundled_file": "modules/write/scripts/check-ai-patterns.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/check-degeneration.js",
+      "source_sha256": "6c065c563e82b4b2ce4d66ad3dc1f57f0b742de41a8a65c2ae677ebeff5b7dea",
+      "bundled_file": "modules/write/scripts/check-degeneration.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/check-delivery-contract.js",
+      "source_sha256": "a37984b28e44963e64bb6247a80f4eb72c7d539386229d5e4d7281e59ea45902",
+      "bundled_file": "modules/write/scripts/check-delivery-contract.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/check-outline-copy.js",
+      "source_sha256": "0ab8bc11ea624238920fbb3cd36b466f9c6548632f5bead64186bc4f4f5ac595",
+      "bundled_file": "modules/write/scripts/check-outline-copy.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/check-phase2-contract.js",
+      "source_sha256": "742d951066005759b4fbad6b2530a51cf6cd43157f148622fbfffef72b402dc4",
+      "bundled_file": "modules/write/scripts/check-phase2-contract.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/normalize-punctuation.js",
+      "source_sha256": "8424ba7ebf6ea2b54a9c9f5812bdaa61e532e0c5da4527a73171e9f4531c179c",
+      "bundled_file": "modules/write/scripts/normalize-punctuation.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "scripts/style-whitelist.js",
+      "source_sha256": "398018c5acff324009493d1e7661f8864bf62d6d95616d00fa5141cc86eb3908",
+      "bundled_file": "modules/write/scripts/style-whitelist.js"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/世情打脸.md",
+      "source_sha256": "d23e9ccb9e083a4c33f26f55f41b85558e47c3abf4315deb602713887fe83865",
+      "bundled_file": "modules/write/references/genre-styles/世情打脸.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/双男主.md",
+      "source_sha256": "ecdcd8c2f93f2b7beef0cfcc453143022b4abbc0429d5eeb22413e6aa913a7ac",
+      "bundled_file": "modules/write/references/genre-styles/双男主.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/复仇打脸.md",
+      "source_sha256": "f66954aed7c290b58311104155644780982a761e8c7c0156bed27b38e1f47cf8",
+      "bundled_file": "modules/write/references/genre-styles/复仇打脸.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/宅斗宫斗.md",
+      "source_sha256": "388b075dce95e34bb3954b2c5e96ec7938d3a5c769eea18644e9786be444a302",
+      "bundled_file": "modules/write/references/genre-styles/宅斗宫斗.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/总裁豪门.md",
+      "source_sha256": "0c7271a9768d7d83f673e03c40a2b4284f4796e1a34e6fb5def2edfd4d142176",
+      "bundled_file": "modules/write/references/genre-styles/总裁豪门.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/悬疑.md",
+      "source_sha256": "a9aa811afc4292c57531ab398ddc703b3be18156bf3a97f7ca42e8dd3eff6323",
+      "bundled_file": "modules/write/references/genre-styles/悬疑.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/民俗怪谈.md",
+      "source_sha256": "2199376580586788f17f67439300582b2b0e84da4a3d7e57d2e0fc34bfd1bf8b",
+      "bundled_file": "modules/write/references/genre-styles/民俗怪谈.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/沙雕脑洞.md",
+      "source_sha256": "d745e461025d2fa1905841455a2df9f6601223f60cec5921592a911ceec949f7",
+      "bundled_file": "modules/write/references/genre-styles/沙雕脑洞.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/甜宠.md",
+      "source_sha256": "f9dafd51e1e69bfacccfe588769eb43f58619f283d07847faa72e80a97f78d91",
+      "bundled_file": "modules/write/references/genre-styles/甜宠.md"
+    },
+    {
+      "source_skill": "story-short-write",
+      "source_file": "references/genre-styles/追妻火葬场.md",
+      "source_sha256": "474f316409f1fd0b0142304d5832d3a77eea830f09a88c91a4425376d6d31ff7",
+      "bundled_file": "modules/write/references/genre-styles/追妻火葬场.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "SKILL.md",
+      "source_sha256": "fbc4a5240448d3fff1d0043044128703277cb17a1d110b21fd6ef8cf2128cbf4",
+      "bundled_file": "modules/import/guide.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/character-state-reverse.md",
+      "source_sha256": "02a870fb5104837dfd9bf78f0d98aa0ed23dc60cdec4e107de67d5d6ce9fb94d",
+      "bundled_file": "modules/import/references/character-state-reverse.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/deep-analysis.md",
+      "source_sha256": "34353c1ebe828d8d5eaa236823856c5113235e1b83afd7d3000eb5f5c5c054ac",
+      "bundled_file": "modules/import/references/deep-analysis.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/format-and-structure.md",
+      "source_sha256": "25accded4fc4710fb578b8d3991ee121033ce00e7d0013210b262e76d3d2a4d9",
+      "bundled_file": "modules/import/references/format-and-structure.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/import-report.md",
+      "source_sha256": "878066a974ddb4b676e8b9db1eb7e69a03787db2ad0c978be6493dddacdbd48b",
+      "bundled_file": "modules/import/references/import-report.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/import-special-cases.md",
+      "source_sha256": "ed9ca631965b78e1c9488e842cfc3192053e1227c87202b3ab311345091c92ec",
+      "bundled_file": "modules/import/references/import-special-cases.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/import-tracking.md",
+      "source_sha256": "bf2d1c413d6cff426c2541082ac9b95c01f53f1bd76491779cde5e099ec654a5",
+      "bundled_file": "modules/import/references/import-tracking.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/length-routing.md",
+      "source_sha256": "bf2b1c2c0dcffdceea5a75016366f70f9f0ceb84e697b0ab3505433196876e4a",
+      "bundled_file": "modules/import/references/length-routing.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/outline-reverse-rules.md",
+      "source_sha256": "0727311b12fa7bde40e25222b2205064eecfb16282299b7ef1a09be4e206d051",
+      "bundled_file": "modules/import/references/outline-reverse-rules.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/outline-reverse.md",
+      "source_sha256": "9397a8621c4c1a678aa3eadc36193eba9e4bbdd9f9a5c8dfb15e7a1027ac8a87",
+      "bundled_file": "modules/import/references/outline-reverse.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/state-tracking.md",
+      "source_sha256": "1357bc3bd327b4e636019165817f8efee6767fd8dc6a22e97b9ad6a1af24dded",
+      "bundled_file": "modules/import/references/state-tracking.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/structure-mapping-long.md",
+      "source_sha256": "1247aa79bb6478a80b023fc5cbe22d34a42069b20ba74da25cc52964055e0072",
+      "bundled_file": "modules/import/references/structure-mapping-long.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/structure-mapping-short.md",
+      "source_sha256": "47ed392a6d84035d76c11f1cfe69aef8909ee99be1a2822a3e6376bdf6bae01d",
+      "bundled_file": "modules/import/references/structure-mapping-short.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/tracking-initialization.md",
+      "source_sha256": "84ac72d8e69a1968b95cd3167b695350f41da16d2ad6047919671674c1e07903",
+      "bundled_file": "modules/import/references/tracking-initialization.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "references/tracking-transaction.md",
+      "source_sha256": "51577c811e75e3e3f4a4f60595e5a56440bc3ee361510a860ee473d45cf4ff7b",
+      "bundled_file": "modules/import/references/tracking-transaction.md"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "scripts/build_outline_brief.py",
+      "source_sha256": "724b67bd39139ea35a8d9ed95cf5e45e165a88269851378b70f5e050b9a56618",
+      "bundled_file": "modules/import/scripts/build_outline_brief.py"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "scripts/check-outline-contract.js",
+      "source_sha256": "8bb313a0cb0b1046c6a1182e40cdc58062fb6dc68fb519dc46b805526dab2ba1",
+      "bundled_file": "modules/import/scripts/check-outline-contract.js"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "scripts/tracking_commit.py",
+      "source_sha256": "a20f1bd8d4bd560b8fcc5b85530f62684edb434630c39ba9ebebc13d560bfda0",
+      "bundled_file": "modules/import/scripts/tracking_commit.py"
+    },
+    {
+      "source_skill": "story-import",
+      "source_file": "scripts/wordcount_core.py",
+      "source_sha256": "fc014bea2040c1c48b3d2f565b86a388c21767ef4741359b5d5304b5fd235688",
+      "bundled_file": "modules/import/scripts/wordcount_core.py"
+    },
+    {
+      "source_skill": "story-cover",
+      "source_file": "SKILL.md",
+      "source_sha256": "0727da63710f720db93d0f786bae95577354cc163e22a62e19aed84eee7c2c13",
+      "bundled_file": "modules/cover/guide.md"
+    },
+    {
+      "source_skill": "story-cover",
+      "source_file": "references/cover-styles.md",
+      "source_sha256": "e5c426310a8e444f8597856889fff614a79f562626ca43be76e8f4c4732b5b3e",
+      "bundled_file": "modules/cover/references/cover-styles.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "SKILL.md",
+      "source_sha256": "4e2c449e9e0187eb54f6c4a658c1fa2d9d4f8ac56d07a978222f001a1161f0b1",
+      "bundled_file": "modules/deslop/guide.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/agent-calls.md",
+      "source_sha256": "a85729f92fe36713376a7ea67b7612bff244fcef632450432e6cef821c5fd8a1",
+      "bundled_file": "modules/deslop/references/agent-calls.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/anti-ai-writing.md",
+      "source_sha256": "8478524ab72e08db29ea09fdf09ac7420776da07c1ef526cdce5e7dc4ee4fd29",
+      "bundled_file": "modules/deslop/references/anti-ai-writing.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/author-memory-maintenance.md",
+      "source_sha256": "9ea57cc93f70ec7f1df6df03e4c3605e0937d4a95c89c01d230b391082eaacda",
+      "bundled_file": "modules/deslop/references/author-memory-maintenance.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/author-memory.md",
+      "source_sha256": "832171fac5265e613ea55eac028c1ba90da2e907eb60bb8cc6c7c70a7e2a7ba1",
+      "bundled_file": "modules/deslop/references/author-memory.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/banned-words.md",
+      "source_sha256": "0950870db637861b895972069f374b0d9e89120a17fa9d668362879b7da0f6a3",
+      "bundled_file": "modules/deslop/references/banned-words.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/deslop-gates.md",
+      "source_sha256": "6dc4fdc930643923dae4f4c850e12e6b296181cfb08d05e6f4cfc76059bde050",
+      "bundled_file": "modules/deslop/references/deslop-gates.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "references/style-resolution.md",
+      "source_sha256": "68f71f04d7c0af5a6344a85753d487642f368ef03fac93a79096141bba8e168b",
+      "bundled_file": "modules/deslop/references/style-resolution.md"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "scripts/author_memory_commit.py",
+      "source_sha256": "cc1e0d957f3eea9e04d679423ecb511b5eb7d8dc5bfcaa87196cfe258e2103d5",
+      "bundled_file": "modules/deslop/scripts/author_memory_commit.py"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "scripts/check-ai-patterns.js",
+      "source_sha256": "56bfcda4e79072e80744b30df035ad10210972e9d879888bd0403c1c931c3351",
+      "bundled_file": "modules/deslop/scripts/check-ai-patterns.js"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "scripts/check-degeneration.js",
+      "source_sha256": "6c065c563e82b4b2ce4d66ad3dc1f57f0b742de41a8a65c2ae677ebeff5b7dea",
+      "bundled_file": "modules/deslop/scripts/check-degeneration.js"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "scripts/normalize-punctuation.js",
+      "source_sha256": "8424ba7ebf6ea2b54a9c9f5812bdaa61e532e0c5da4527a73171e9f4531c179c",
+      "bundled_file": "modules/deslop/scripts/normalize-punctuation.js"
+    },
+    {
+      "source_skill": "story-deslop",
+      "source_file": "scripts/style-whitelist.js",
+      "source_sha256": "398018c5acff324009493d1e7661f8864bf62d6d95616d00fa5141cc86eb3908",
+      "bundled_file": "modules/deslop/scripts/style-whitelist.js"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "SKILL.md",
+      "source_sha256": "37fecaa7451302e84ea482e5ca7dbedff0cdc0c4594c1711f33cc3e1c06fa6f5",
+      "bundled_file": "modules/review/guide.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/agent-prompts.md",
+      "source_sha256": "b08de686a7985d9dd1f848fa292dfa833a6c1d6247f18400ed84d59e6c5cba46",
+      "bundled_file": "modules/review/references/agent-prompts.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/anti-ai-writing.md",
+      "source_sha256": "8478524ab72e08db29ea09fdf09ac7420776da07c1ef526cdce5e7dc4ee4fd29",
+      "bundled_file": "modules/review/references/anti-ai-writing.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/author-memory-maintenance.md",
+      "source_sha256": "9ea57cc93f70ec7f1df6df03e4c3605e0937d4a95c89c01d230b391082eaacda",
+      "bundled_file": "modules/review/references/author-memory-maintenance.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/author-memory.md",
+      "source_sha256": "832171fac5265e613ea55eac028c1ba90da2e907eb60bb8cc6c7c70a7e2a7ba1",
+      "bundled_file": "modules/review/references/author-memory.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/banned-words.md",
+      "source_sha256": "0950870db637861b895972069f374b0d9e89120a17fa9d668362879b7da0f6a3",
+      "bundled_file": "modules/review/references/banned-words.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/batch-review.md",
+      "source_sha256": "895d54568353ad9c336f482703f2d879c8f9a5a32edb0be6a74f024cb3376238",
+      "bundled_file": "modules/review/references/batch-review.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/character-relations.md",
+      "source_sha256": "4c2e5d4b634e5905eaaabaafdb6e2627ca9f8b0a9bcf34b78d7e07fd4adccc60",
+      "bundled_file": "modules/review/references/character-relations.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/dialogue-mastery.md",
+      "source_sha256": "55179705ce1539c2674c0d9c478a448cfbeabe85281744266d40249a31bcac84",
+      "bundled_file": "modules/review/references/dialogue-mastery.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/plot-core-methods.md",
+      "source_sha256": "85274f51589fddf8098100419b4de3b73baf8caa0d99b8fbe2f8d414c7728e84",
+      "bundled_file": "modules/review/references/plot-core-methods.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/quality-rubric.md",
+      "source_sha256": "629fddafeb21dd3f7d8306f0487d776013aef8ff9e8a833e8e68216e95bd84a3",
+      "bundled_file": "modules/review/references/quality-rubric.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/review-quality.md",
+      "source_sha256": "22c476fbbe5d5b9b1dbd8bcef59f7801bc6efaa459a3a05e845b1bd16f70bac9",
+      "bundled_file": "modules/review/references/review-quality.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/review-tracking.md",
+      "source_sha256": "aeeabead0f342183809914e50ceaa1625657b02c31557b3c8aabeae37248bfec",
+      "bundled_file": "modules/review/references/review-tracking.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/solo.md",
+      "source_sha256": "f08b9a90a52187f18903476dc57bb20d51d2e3be80a55946e17d9fdef6d21143",
+      "bundled_file": "modules/review/references/solo.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/style-resolution.md",
+      "source_sha256": "68f71f04d7c0af5a6344a85753d487642f368ef03fac93a79096141bba8e168b",
+      "bundled_file": "modules/review/references/style-resolution.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/tracking-initialization.md",
+      "source_sha256": "84ac72d8e69a1968b95cd3167b695350f41da16d2ad6047919671674c1e07903",
+      "bundled_file": "modules/review/references/tracking-initialization.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/tracking-transaction.md",
+      "source_sha256": "51577c811e75e3e3f4a4f60595e5a56440bc3ee361510a860ee473d45cf4ff7b",
+      "bundled_file": "modules/review/references/tracking-transaction.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/author_memory_commit.py",
+      "source_sha256": "cc1e0d957f3eea9e04d679423ecb511b5eb7d8dc5bfcaa87196cfe258e2103d5",
+      "bundled_file": "modules/review/scripts/author_memory_commit.py"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/check-ai-patterns.js",
+      "source_sha256": "56bfcda4e79072e80744b30df035ad10210972e9d879888bd0403c1c931c3351",
+      "bundled_file": "modules/review/scripts/check-ai-patterns.js"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/check-degeneration.js",
+      "source_sha256": "6c065c563e82b4b2ce4d66ad3dc1f57f0b742de41a8a65c2ae677ebeff5b7dea",
+      "bundled_file": "modules/review/scripts/check-degeneration.js"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/normalize-punctuation.js",
+      "source_sha256": "8424ba7ebf6ea2b54a9c9f5812bdaa61e532e0c5da4527a73171e9f4531c179c",
+      "bundled_file": "modules/review/scripts/normalize-punctuation.js"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/style-whitelist.js",
+      "source_sha256": "398018c5acff324009493d1e7661f8864bf62d6d95616d00fa5141cc86eb3908",
+      "bundled_file": "modules/review/scripts/style-whitelist.js"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/tracking_commit.py",
+      "source_sha256": "a20f1bd8d4bd560b8fcc5b85530f62684edb434630c39ba9ebebc13d560bfda0",
+      "bundled_file": "modules/review/scripts/tracking_commit.py"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "scripts/wordcount_core.py",
+      "source_sha256": "fc014bea2040c1c48b3d2f565b86a388c21767ef4741359b5d5304b5fd235688",
+      "bundled_file": "modules/review/scripts/wordcount_core.py"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/rubrics/fanqie.md",
+      "source_sha256": "4f5b437aa67d90f30f83c84dcc1b3f1a89d90ea7ec122e661b7969beeb161b14",
+      "bundled_file": "modules/review/references/rubrics/fanqie.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/rubrics/qidian.md",
+      "source_sha256": "277645326e5f08fea61d46b0e9beb2e9b8e75b2f8dc93bd3b637873d0d875316",
+      "bundled_file": "modules/review/references/rubrics/qidian.md"
+    },
+    {
+      "source_skill": "story-review",
+      "source_file": "references/rubrics/zhihu.md",
+      "source_sha256": "39b321a67146e5a39953af174712e5d6ba78440c9acf5f8caecfd9b557ff7d44",
+      "bundled_file": "modules/review/references/rubrics/zhihu.md"
+    }
+  ]
+}

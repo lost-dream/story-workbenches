@@ -1,0 +1,6 @@
+interface:
+  display_name: "长篇小说工作台"
+  short_description: "长篇选题、深度拆文、开书规划、日更续写与导入审稿封面的统一入口"
+  default_prompt: "使用 $story-long-workbench，根据当前小说项目和我的要求，完成指定的创作阶段。"
+policy:
+  allow_implicit_invocation: true
